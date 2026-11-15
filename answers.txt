@@ -1,0 +1,9 @@
+Name: Eric
+Email: echen9120@gmail.com
+Seed: 6
+
+Q1: Without a volume, files written inside a container live only in its writable layer, so they are permanently lost when the container is deleted.
+
+Q2: The web service has no published port because it only needs to be reachable by the proxy container on the internal Docker network, not from the host.
+
+Q3: An image is a read-only template, while a container is a running instance of that image with its own writable layer.
